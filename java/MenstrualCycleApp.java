@@ -10,7 +10,7 @@ LocalDate lastPeriodDate = LocalDate.parse(lastPeriodInput, formatter);
 int minimumCycleLength = Math.max(cycleLength, 25);
 
 StringBuilder result = new StringBuilder();
-result.append("Upcoming Menstrual Cycles:\n");
+result.append("Upcoming Menstrual Cycles");
 
 int index = 1; 
 
